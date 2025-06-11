@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Licença & Cia. - Você (não) possui!</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #000066;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .slogan {
+            text-align: center;
+            font-style: italic;
+            margin: 10px;
+            color: #666;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .product {
+            background-color: white;
+            border-radius: 8px;
+            padding: 15px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+            border-radius: 5px;
+        }
+        .product h3 {
+            margin: 10px 0;
+            color: #ff4757;
+        }
+        .price {
+            font-weight: bold;
+            font-size: 18px;
+            color: #2ed573;
+        }
+        .terms {
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+            font-style: italic;
+        }
+        .buy-btn {
+            background-color: #000066;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        .buy-btn:hover {
+            background-color: #ff6b81;
+        }
+        .testimonials {
+            background-color: #dfe4ea;
+            padding: 20px;
+            margin: 20px;
+            border-radius: 8px;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: white;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        PRODUTO INEXISTENTE (PI) - COMPRE ALGO, POSSUA NADA!
+    </div>
+    <div class="slogan">
+        Compre produtos digitais como se fossem reais!
+    </div>
+
+    <div class="product-grid">
+        <!-- Produto 1: Livro Digital com DRM -->
+        <div class="product">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a30c159-0c78-402f-aa00-b3a30e5c7fa2/djxq6xd-1476a5eb-9f82-42dc-9fce-9869754f2e5c.png/v1/fill/w_1280,h_854/proyecto_nuevo__3__by_rackiedragneel_djxq6xd-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvMWEzMGMxNTktMGM3OC00MDJmLWFhMDAtYjNhMzBlNWM3ZmEyXC9kanhxNnhkLTE0NzZhNWViLTlmODItNDJkYy05ZmNlLTk4Njk3NTRmMmU1Yy5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.Rk57bPc_w_PUGJRD9ltF9nVBzbK3jbJ2q8gBZHkwsJ8" alt="Livro Digital">
+            <h3>Livro Digital com DRM</h3>
+            <p>Adquira seu livro digital! Leia onde quiser (desde que use nosso app). Não pode emprestar, vender ou deixar de herança.</p>
+            <p class="price">R$ 49,90 <small>(+ R$ 9,90/mês após 1 ano)</small></p>
+            <p class="terms">*Se a editora remover o título, você perde o acesso. Não funciona offline.</p>
+            <button class="buy-btn" onclick="window.location.href='404.html'">COMPRE AGORA</button>
+        </div>
+
+        <!-- Produto 2: Música Avulsa (Streaming Only) -->
+        <div class="product">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a30c159-0c78-402f-aa00-b3a30e5c7fa2/djxq0g2-6c8cd324-f3fc-468a-a16e-0df8125ccc6f.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzFhMzBjMTU5LTBjNzgtNDAyZi1hYTAwLWIzYTMwZTVjN2ZhMlwvZGp4cTBnMi02YzhjZDMyNC1mM2ZjLTQ2OGEtYTE2ZS0wZGY4MTI1Y2NjNmYucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.LysN0aob6i9IG4JzsWc9J4geCsS8ImKCbEFEBTgj7ag" alt="Música Avulsa">
+            <h3>Música Avulsa (Streaming Only)</h3>
+            <p>Compre sua música favorita! (Mas só pode ouvir online. Offline? Assine o plano Premium.)</p>
+            <p class="price">R$ 5,90 <small>(por música)</small></p>
+            <p class="terms">*Artista não recebe royalties após 6 meses. Plataforma pode removê-la.</p>
+            <button class="buy-btn" onclick="window.location.href='404.html'">COMPRE AGORA</button>
+        </div>
+
+        <!-- Produto 3: Jogo "Perpétuo" -->
+        <div class="product">
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a30c159-0c78-402f-aa00-b3a30e5c7fa2/djxq4mr-0803c423-f54a-4d6c-9b31-ff46ec024bf5.png/v1/fill/w_1280,h_854/service_game_by_rackiedragneel_djxq4mr-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9ODU0IiwicGF0aCI6IlwvZlwvMWEzMGMxNTktMGM3OC00MDJmLWFhMDAtYjNhMzBlNWM3ZmEyXC9kanhxNG1yLTA4MDNjNDIzLWY1NGEtNGQ2Yy05YjMxLWZmNDZlYzAyNGJmNS5wbmciLCJ3aWR0aCI6Ijw9MTI4MCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.VaNVErIMdHYGuOHo0ZtDP7Hwl_697n13s4wivcXoVV8" alt="Jogo Perpétuo">
+            <h3>Jogo "Perpétuo" (Online Only)</h3>
+            <p>Jogo completo! (Mas requer conexão 24/7. Servidores fecham em 2026.)</p>
+            <p class="price">R$ 299,90 <small>(+ R$ 19,90/mês)</small></p>
+            <p class="terms">*Se faltar internet, o jogo não abre. Banimento por usar mods.</p>
+            <button class="buy-btn" onclick="window.location.href='404.html'">COMPRE AGORA</button>
+        </div>
+    </div>
+
+    <!-- Depoimentos Falsos -->
+    <div class="testimonials">
+        <h3>O QUE DIZEM NOSSOS CLIENTES ILUDIDOS:</h3>
+        <p><i>"Adorei! Paguei por algo que nunca terei de verdade!"</i> – João D.</p>
+        <p><i>"Perdi acesso após 2 anos, mas a experiência de 'não posse' foi incrível!"</i> – Maria S.</p>
+    </div>
+
+    <!-- Rodapé Sarcástico -->
+    <div class="footer">
+        <p>PRODUTO INEXISTENTE (PI). © 20XX - VOCÊ NÃO POSSUI NADA, SÓ ALUGA.</p>
+        <p><a href="404.html" style="color: #aaa;">Termos de Serviço (que ninguém lê)</a> | <a href="404.html" style="color: #aaa;">Política de Cancelamento Impossível</a></p>
+    </div>
+</body>
+</html>

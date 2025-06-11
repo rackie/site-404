@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌟 Produto Inexistente™ - O Nada em Forma de Site!</title>
+    <style>
+        body {
+            background-color: #000066;
+            color: yellow;
+            font-family: "Comic Sans MS", cursive;
+            margin: 0;
+            padding: 20px;
+	}
+	img {
+   	    display: block;
+   	    margin: 0 auto;
+   	    max-width: 100%;
+	    width: 800px;
+	}
+	.team-member img, h2 img {
+    		display: inline-block;
+    		margin: 0; 
+        }
+        @keyframes blink {
+            0% { opacity: 1; }
+            50% { opacity: 0; }
+            100% { opacity: 1; }
+        }
+        .blink {
+            animation: blink 1s infinite;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(0, 0, 51, 0.7);
+            padding: 20px;
+            border: 3px solid #ff00ff;
+            position: relative;
+        }
+        table {
+            margin: 0 auto;
+            background: purple;
+        }
+        a {
+            color: #ff00ff;
+            text-decoration: none;
+        }
+        a:hover {
+            text-decoration: underline overline;
+        }
+        button {
+            background: #ff00ff;
+            color: black;
+            border: none;
+            padding: 5px 10px;
+            font-family: "Comic Sans MS", cursive;
+            cursor: pointer;
+        }
+        .counter {
+            border: 3px solid lime;
+            width: 100px;
+            margin: 20px auto;
+            background: black;
+            padding: 5px;
+        }
+        /* Chatbot */
+        #chatbot {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 250px;
+            background: #000;
+            border: 3px solid red;
+            z-index: 1000;
+        }
+        #chat-header {
+            background: red;
+            color: black;
+            padding: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+        #chat-messages {
+            height: 200px;
+            overflow-y: scroll;
+            padding: 10px;
+        }
+        #chat-input {
+            width: 70%;
+            padding: 5px;
+            background: #222;
+            color: white;
+            border: 1px solid #ff00ff;
+        }
+        /* Página Sobre Nós */
+        .team-member {
+            display: inline-block;
+            width: 500px;
+            margin: 10px;
+            vertical-align: top;
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <div class="container">
+        <h1 align="center" class="blink">🌟 PRODUTO INEXISTENTE™ 🌟</h1>
+        <marquee behavior="scroll" direction="left" scrollamount="10">
+            🚀 OFERTA LIMITADA! COMPRE ANTES QUE DESAPAREÇA! 🚀 (ou depois, tanto faz)
+        </marquee>
+
+        <!-- Menu -->
+        <table border="1" cellpadding="5">
+            <tr>
+                <td><a href="#sobre"><font color="white">📌 SOBRE</font></a></td>
+                <td><a href="#equipe"><font color="white">👾 NOVIDADE</font></a></td>
+                <td><a href="404.html"><font color="white">💾 DOWNLOAD</font></a></td>
+                <td><a href="#guestbook"><font color="white">📝 GUESTBOOK</font></a></td>
+                <td><a href="comprar.html"><font color="white">💸 COMPRAR</font></a></td>
+            </tr>
+        </table>
+
+        <!-- Contador Fake -->
+        <div class="counter" align="center">
+            <video class="gifsnomore aligncenter size-full wp-image-1005773 " autoplay="" loop="" muted=""><source type="video/mp4" src="https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/10/4en04c.mp4"></video>
+            <br>
+            <font size="2">VISITANTES: <b>999,999</b></font>
+        </div>
+
+        <!-- Seção Sobre -->
+        <h2 id="sobre">📌 SOBRE O PRODUTO INEXISTENTE™</h2>
+        <p>Fundada em 1999 (ou talvez nunca), a <span class="blink">Produto Inexistente™</span> é líder de mercado em:</p>
+        <ul>
+            <li>🚫 Criar soluções para problemas que não existem</li>
+            <li>💸 Transformar seu dinheiro em nada</li>
+            <li>⌛ Economizar 0% do seu tempo</li>
+            <li>🤡 Fazer promessas impossíveis</li>
+        </ul>
+
+
+        <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a30c159-0c78-402f-aa00-b3a30e5c7fa2/djxnq40-accce7a5-33a4-49a2-aded-cdfc844e55e1.png/v1/fill/w_1280,h_1280/pi_web_by_rackiedragneel_djxnq40-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzFhMzBjMTU5LTBjNzgtNDAyZi1hYTAwLWIzYTMwZTVjN2ZhMlwvZGp4bnE0MC1hY2NjZTdhNS0zM2E0LTQ5YTItYWRlZC1jZGZjODQ0ZTU1ZTEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.QnfjEiDmgySDXiX6FO1HjyJKB--hSaCv5Z6qQvfzBfQ" alt="Under Construction" style="display: block; margin: 0 auto;">
+<div align="center">
+	<h2 id="equipe" style="color: red; font-family: 'Times New Roman', serif;">
+    CONFIE TODAS AS INFORMAÇÕES E CONTEÚDOS A NÓS, O FÍSICO É ULTRAPASSADO, O FUTURO É DIGITAL!!
+</h2>
+
+        <!-- Seção Equipe -->
+       <h2 id="equipe" style="text-align: center;">
+    <video class="gifsnomore aligncenter size-full wp-image-1005775 " autoplay="" loop="" muted=""><source type="video/mp4" src="https://cdn1.tnwcdn.com/wp-content/blogs.dir/1/files/2016/10/buyitemsonlinebanner.mp4"></video>
+ 	</div>
+
+        <h2 id="equipe" style="text-align: center;">
+    <img src="https://i.gifer.com/3vIR.gif" style="width: 50px; height: 50px;"> 
+    NOVO PRODUTO IMPERDÍVEL 
+    <img src="https://i.gifer.com/3vIR.gif" style="width: 50px; height: 50px;">
+</h2>
+<div align="center">
+    <div class="team-member">
+        <style>
+            .centralizada {
+                display: block;
+                margin: 0 auto;     /* centraliza */
+                width: 800px;       /* largura aumentada (ajuste o valor conforme necessário) */
+                height: auto;      /* mantém a proporção */
+                border: 2px solid lime; /* borda opcional */
+            }
+        </style>
+        <img 
+            src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/1a30c159-0c78-402f-aa00-b3a30e5c7fa2/djxnvxp-74ff9f8a-d712-4610-91b9-fa48d49cb45f.png/v1/fill/w_1280,h_1280/caixa_by_rackiedragneel_djxnvxp-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcLzFhMzBjMTU5LTBjNzgtNDAyZi1hYTAwLWIzYTMwZTVjN2ZhMlwvZGp4bnZ4cC03NGZmOWY4YS1kNzEyLTQ2MTAtOTFiOS1mYTQ4ZDQ5Y2I0NWYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.a94Wj1_mcJnou4Q0_7kBtUVoF0-HwXrftMliV3coDTA" 
+            class="centralizada" 
+            alt="Caixa misteriosa"
+        >
+    </div>
+</div>
+                        </div>
+
+        <!-- Guestbook Fake -->
+        <h2 id="guestbook">📝 GUESTBOOK</h2>
+        <div style="background: rgba(0, 0, 0, 0.5); padding: 10px;">
+            <p><b>FantamaSouza:</b> Adorei não receber esse produto! ★★★★★</p>
+            <p><b>Vulto 286:</b> Nunca usei nada melhor!</p>
+            <p><b>VazioXD:</b> Meu dinheiro sumiu mas valeu a pena!</p>
+            
+            <form onsubmit="alert('Seu comentário foi ignorado com sucesso!'); return false;">
+                <p><b>Deixe seu comentário:</b></p>
+                <input type="text" placeholder="Seu nome" style="width: 200px;"><br>
+                <textarea placeholder="Mensagem" rows="4" cols="40"></textarea><br>
+                <button type="submit">ENVIAR</button>
+            </form>
+	<div align="center">
+        </div>
+
+        <!-- Rodapé -->
+        <hr>
+        <p align="center">
+            <font size="2">
+            © 1999-20XX Produto Inexistente™ - Uma empresa <s>fictícia</s> totalmente real<br>
+            <a href="404.html">Termos de Serviço</a> | 
+            <a href="404.html">Política de Privacidade</a> |
+            <a href="javascript:alert('Ninguém vai te responder.')">📞 Contato</a>
+            </font>
+        </p>
+    </div>
+
+    <!-- Chatbot Fake -->
+    <div id="chatbot">
+        <div id="chat-header" onclick="toggleChat()">
+            🤖 Chatbot de Suporte ▼
+        </div>
+        <div id="chat-messages">
+            <p><b>Bot:</b> Olá! Sou o Chatbot da Produto Inexistente™. Como posso não ajudar?</p>
+            <p><b>Bot:</b> Digite "ajuda" para não receber assistência.</p>
+        </div>
+        <div style="padding: 5px;">
+            <input type="text" id="chat-input" placeholder="Digite uma mensagem...">
+            <button onclick="sendMessage()">Enviar</button>
+        </div>
+    </div>
+
+    <!-- Música MIDI -->
+    <embed src="https://www.midiworld.com/midi/doom/e1m1.mid" autostart="true" loop="true" hidden>
+
+    <!-- Scripts -->
+    <script>
+        // Chatbot
+        function toggleChat() {
+            const chat = document.getElementById("chat-messages");
+            chat.style.display = chat.style.display === "none" ? "block" : "none";
+        }
+
+        function sendMessage() {
+            const input = document.getElementById("chat-input");
+            const messages = document.getElementById("chat-messages");
+            
+            if (input.value.trim() !== "") {
+                messages.innerHTML += `<p><b>Você:</b> ${input.value}</p>`;
+                
+                // Respostas aleatórias do bot
+                const replies = [
+                    "Desculpe, não entendi. (Na verdade nem tentei)",
+                    "Por favor, aguarde 5-7 dias úteis para nenhuma resposta.",
+                    "Erro 404: Resposta não encontrada.",
+                    "Sua mensagem é muito importante para nós. Foi ignorada com sucesso!",
+                    "Digite 'sair' para continuar preso neste chat."
+                ];
+                const randomReply = replies[Math.floor(Math.random() * replies.length)];
+                
+                setTimeout(() => {
+                    messages.innerHTML += `<p><b>Bot:</b> ${randomReply}</p>`;
+                    messages.scrollTop = messages.scrollHeight;
+                }, 1000);
+                
+                input.value = "";
+                messages.scrollTop = messages.scrollHeight;
+            }
+        }
+
+        // Pop-up Irritante
+        setTimeout(() => {
+            alert("Lembre-se seu produto é NOSSO PRODUTO, podemos fazer ele desaparecer a qualquer momento!");
+        }, 5000);
+
+        // Efeito de cursor
+        document.body.style.cursor = `url('https://i.gifer.com/LHto.gif'), auto`;
+    </script>
+</body>
+</html>
